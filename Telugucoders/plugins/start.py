@@ -52,11 +52,11 @@ async def start_(client: Client, message: Message, _):
     start_keyboard = InlineKeyboardMarkup( [[
            InlineKeyboardButton(_["help_btn"], callback_data="command_list"), 
            ],[
-           InlineKeyboardButton(_["❤️‍🔥support_btn❤️‍🔥"], url=f"https://t.me/{GROUP}"), 
-           InlineKeyboardButton(_["💚network_btn💚"], url=f"https://t.me/{NETWORK}"), 
+           InlineKeyboardButton(_["support_btn"], url=f"https://t.me/{GROUP}"), 
+           InlineKeyboardButton(_["network_btn"], url=f"https://t.me/{NETWORK}"), 
            ],[
            InlineKeyboardButton(_["git_repo"], url="https://graph.org/file/19d5e011b06b8708da6ba.jpg"), 
-           InlineKeyboardButton(_["🤍owner_btn🤍"], url=f"t.me/lover_jerry"), 
+           InlineKeyboardButton(_["owner_btn"], url=f"t.me/lover_jerry"), 
            ],[
            InlineKeyboardButton(_["lang_btn"], callback_data="_langs")
            ]]
