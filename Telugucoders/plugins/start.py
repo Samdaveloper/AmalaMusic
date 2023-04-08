@@ -50,13 +50,13 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message, _):
     user_mention = message.from_user.mention
     start_keyboard = InlineKeyboardMarkup( [[
-           InlineKeyboardButton(_["help_btn"], callback_data="command_list"), 
+           InlineKeyboardButton(_["😣help_btn😣"], callback_data="command_list"), 
            ],[
-           InlineKeyboardButton(_["support_btn"], url=f"https://t.me/{GROUP}"), 
-           InlineKeyboardButton(_["network_btn"], url=f"https://t.me/{NETWORK}"), 
+           InlineKeyboardButton(_["❤️‍🔥support_btn❤️‍🔥"], url=f"https://t.me/{GROUP}"), 
+           InlineKeyboardButton(_["💚network_btn💚"], url=f"https://t.me/{NETWORK}"), 
            ],[
-           InlineKeyboardButton(_["git_repo"], url="https://github.com/Telugucoders/AmalaMusic"), 
-           InlineKeyboardButton(_["owner_btn"], url=f"t.me/santhu_afk_bot7981"), 
+           InlineKeyboardButton(_["git_repo"], url="https://graph.org/file/19d5e011b06b8708da6ba.jpg"), 
+           InlineKeyboardButton(_["🤍owner_btn🤍"], url=f"t.me/lover_jerry"), 
            ],[
            InlineKeyboardButton(_["lang_btn"], callback_data="_langs")
            ]]
@@ -82,7 +82,7 @@ async def alive(client: Client, message: Message, _):
 @language
 async def repo(client: Client, message: Message, _):
     source_keyboard = InlineKeyboardMarkup( [[
-           InlineKeyboardButton(_["source"], url="https://github.com/Telugucoders/AmalaMusic")
+           InlineKeyboardButton(_["source"], url="https://graph.org/file/19d5e011b06b8708da6ba.jpg")
            ]]
            ) 
     await message.reply_text(_["repo_btn"],reply_markup=source_keyboard) 
