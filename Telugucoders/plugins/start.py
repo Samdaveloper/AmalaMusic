@@ -50,7 +50,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message, _):
     user_mention = message.from_user.mention
     start_keyboard = InlineKeyboardMarkup( [[
-           InlineKeyboardButton(_["😣help_btn😣"], callback_data="command_list"), 
+           InlineKeyboardButton(_["help_btn"], callback_data="command_list"), 
            ],[
            InlineKeyboardButton(_["❤️‍🔥support_btn❤️‍🔥"], url=f"https://t.me/{GROUP}"), 
            InlineKeyboardButton(_["💚network_btn💚"], url=f"https://t.me/{NETWORK}"), 
