@@ -45,7 +45,7 @@ async def _human_time_duration(seconds):
     
    ## don't change any value in this repo if you change the value bot will crash your heroku accounts. 
 
-@Client.on_message(command("start") & ~filters.edited & ~BANNED_USERS)
+@Client.on_message(command("M") & ~filters.edited & ~BANNED_USERS)
 @language
 async def start_(client: Client, message: Message, _):
     user_mention = message.from_user.mention
