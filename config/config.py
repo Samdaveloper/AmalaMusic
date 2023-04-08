@@ -20,9 +20,9 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
 STRING_SESSION = getenv("STRING_SESSION")
 BOT_USERNAME = getenv("BOT_USERNAME", "Amalamusic_bot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6168241978").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5864436910").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5566634044").split())
+    map(int, getenv("OWNER_ID", "5864436910").split())
 )  # Input type must be interger
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
