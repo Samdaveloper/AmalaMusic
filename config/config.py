@@ -31,16 +31,16 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001792664572"))
 
 MONGODB_URL = getenv("MONGODB_URL")
 #________________________ Updates 🍃 & Music bot name________________
-NETWORK = getenv("NETWORK", "Telugucodersupdates")
-GROUP = getenv("GROUP", "tgshadow_fighters")
+NETWORK = getenv("NETWORK", "king_x_network")
+GROUP = getenv("GROUP", "maitri_chi_duniya")
 BOT_NAME = getenv("BOT_NAME", "Amala Music")
 BANNED_USERS = filters.user()
 
 #************************* Image Stuff 💕 ****************************
 
-IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
-IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6213d2673486beca02967.png")
-IMG_5 = getenv("IMG_5", "https://telegra.ph/file/d08d6474628be7571f013.png") 
+IMG_1 = getenv("IMG_1", "https://graph.org/file/b2a795ba58a2c42ed342e.jpg")
+IMG_2 = getenv("IMG_2", "https://graph.org/file/534faa549de2b9c3b8150.jpg")
+IMG_5 = getenv("IMG_5", "https://graph.org/file/b2a795ba58a2c42ed342e.jpg") 
 YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://te.legra.ph/file/bc5556476395a0c8e109b.jpg")
 
 aiohttpsession = aiohttp.ClientSession()
