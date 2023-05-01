@@ -25,7 +25,7 @@ async def eSport_boot():
     console.print("├ [yellow]Booted User Client")
     console.print("└ [green]Successfully Started Music Bot ...")
     await idle()
-    print(f"ɢᴏᴏᴅʙʏᴇ!\nStopping @Telugucodersupdates")
+    print(f"ɢᴏᴏᴅʙʏᴇ!\nStopping @lover_jerry")
     await bot.stop()
 
 if __name__ == "__main__":
